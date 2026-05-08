@@ -13,6 +13,7 @@ class Employee:
     #Destructor
     def __del__(self):
         print(f"Employee {self.name} is deleted.")
+        
 emp1 = Employee("Chawankorn Ramanee", 50000, "HR")
 emp1.salary = 55000
 emp1.showData()
